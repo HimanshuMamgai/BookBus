@@ -154,6 +154,7 @@ i {
     }
     header img {
         width: 30vw;
+        height: auto;
     }
 
     nav ul li {
