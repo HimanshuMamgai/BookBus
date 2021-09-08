@@ -105,6 +105,34 @@ input[type=submit]:hover {
     background-color: #368B85;
 }
 
+footer {
+    background-color: #303841;;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-links ul li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.6rem;
+}
+
+i {
+    color: white;
+    font-size: 1.6rem;
+}
+
 @media screen and (max-width: 1150px) {
     
     html, body {
