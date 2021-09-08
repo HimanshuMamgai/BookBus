@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Book Bus</title>
+    <link rel="icon" href="" type="image/png">
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <header>
+        <img src="https://thumbs.dreamstime.com/b/bus-logo-silhouette-graphic-vector-perfect-icon-etc-183602445.jpg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="bookbus.html">Home</a></li>
+                <li><a href="javascript:manageBooking()">Manage Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>If you are new to bookbus just Sign Up otherwise Sign In</h1>
+        <section>
+            <div class="sign_in">
+                <form action="#" method="POST">
+                    <img src="http://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png" alt="user-img" class="user">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required placeholder="Enter your full name">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="Enter your email id">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required placeholder="Create a password">
+                    <input type="submit" value="Sign Up" onclick="signUp()">
+                </form>
+            </div>
+            <hr>
+            <div class="sign_up">
+                <form action="#" method="POST">
+                    <img src="http://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png" alt="user-img" class="user">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="Enter your email id">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required placeholder="Enter your password">
+                    <input type="submit" value="Sign In" onclick="signIn()">
+                </form>
+            </div>
+        </section>
+    </main>
+    <script>
+        function manageBooking() {
+            alert("Sorry this facility not available right now!");
+        }
+
+        function signIn() {
+            alert("You have sucessfully signed in!");
+        }
+
+        function signUp() {
+            alert("You have sucessfully signed up!");
+        }
+    </script>
+</body>
+</html>
