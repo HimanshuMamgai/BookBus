@@ -105,7 +105,7 @@ input[type=submit]:hover {
     background-color: #368B85;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1150px) {
     
     html, body {
         overflow-x: hidden;
@@ -126,5 +126,15 @@ input[type=submit]:hover {
     input[type=submit] {
         display: block;
         margin: 10px auto;
+    }
+    footer {
+        position: static;
+        height: auto;
+        margin-top: 50px;
+    }
+    .footer-links ul li {
+        display: block;
+        margin: 10px;
+        text-align: center;
     }
 }
